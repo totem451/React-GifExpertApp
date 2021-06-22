@@ -1,6 +1,4 @@
-import React from 'react';
 import { getGifs } from '../../helpers/getGifs';
-import { shallow } from 'enzyme';
 import '@testing-library/jest-dom';
 import '@wojtekmaj/enzyme-adapter-react-17'
 
