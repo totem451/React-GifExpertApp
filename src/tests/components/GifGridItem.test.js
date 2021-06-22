@@ -1,6 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { GifGridItem } from '../../components/GifGridItem';
+import '@testing-library/jest-dom';
+import '@wojtekmaj/enzyme-adapter-react-17'
 
 describe('Pruebas en <GifGridItem /> ', () => {
 
