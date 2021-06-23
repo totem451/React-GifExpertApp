@@ -32,8 +32,8 @@ export const AddCategory = ({setCategorias}) => {
 
         <>
 
-            <h1>{inputValue}</h1>
-            <h2>Add Category</h2>
+            <p>{inputValue}</p>
+            <h1>Add Category</h1>
             <form onSubmit = {handleSubmit}>
                 <input 
                     type = 'text'
