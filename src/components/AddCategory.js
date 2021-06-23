@@ -16,13 +16,15 @@ export const AddCategory = ({setCategorias}) => {
 
         e.preventDefault();
 
+        console.log('HandleSubmit', inputValue);
+
         console.log('Submit hecho');
 
         if (inputValue.trim().length > 0) {
 
             // setCategorias(c => [...c, inputValue]);
             setCategorias(c => [inputValue, ...c]);
-            setInputValue(' ');
+            setInputValue('');
 
         }
 
