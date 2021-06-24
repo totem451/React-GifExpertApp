@@ -22,7 +22,7 @@ export const useFetchGifs = ( categoria ) => {
                         loading: false
                     });
 
-                }, 2000);
+                }, 1500);
 
             })
 
